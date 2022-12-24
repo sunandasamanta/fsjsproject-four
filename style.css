@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    margin-top: 2rem;
+    /* margin-left: 5rem; */
+}
+.navbar {
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+select {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
+/* option {
+    font-size: 1.5rem;
+} */
+.menu-list {
+    position: absolute;
+}
+.block-list {
+    position: absolute;
+    right: 5%;    
+}
+.list-item2 {
+    width: 160px;
+    background-image: url(./Assets/Icons/btn-pink-bg.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+    margin-left: 1rem;
+    text-align: center;
+}
+.list-item2 > img {
+    width: 70px;
+}
+h1 {
+    font-weight: 600;
+    font-size: 6.25rem;
+}
+.btn {
+    background: none;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background: no-repeat left url(./Assets/Icons/btn-pink-bg.svg);
+    background-size: 100px;
+}
+.hero-experience {
+    display: flex;
+}
+.hero-box {
+    background: no-repeat center url(./Assets/Photos/backCards.png), no-repeat right url(./Assets/Photos/frontCards.png);
+    height: 80vh;
+    min-height: 800px;
+}
+section[aria-label="hero-logos"] {
+    width: 100%;
+    background-color: rgb(32, 31, 31);
+}
+.hero-logos {
+    width: 80%;
+    height: 12.5vh;
+    min-height: 250px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.hero-logos:nth-child(n) {
+    /* width: 16%; */
+}
+.hero-service {
+    display: flex;
+}
+.hero-service-imgs {
+    display: flex;
+}
+.box1 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 15%);
+    margin-left: 2rem;
+}
+.box2 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #fff;
+    background-image: linear-gradient(rgba(255, 255, 255, 5%), rgba(255, 255, 255, 45%));
+    margin-left: 2rem;
+}
+.box3 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #fff;
+    background-image: linear-gradient(rgba(255, 255, 255, 15%), rgba(255, 255, 255, 5%));
+    margin-left: 2rem;
+}
+.hero-features {
+    background-color: #fff;
+    background-image: url(./Assets/Photos/VCards.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+    min-height: 1500px;
+}
+.hero-features-heading {
+    color: #000;
+    font-weight: 600;
+    font-size: 5rem;
+}
+.hero-features-heading > span {
+    color: rgb(238, 31, 238);
+}
+.hero-features-description {
+    color: rgba(0, 0, 0, 75%);
+    font-weight: 400;
+    font-size: 1.5rem;
+}

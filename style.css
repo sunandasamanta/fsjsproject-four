@@ -65,9 +65,9 @@ h1 {
     display: flex;
 }
 .hero-box {
-    background: no-repeat center url(./Assets/Photos/backCards.png), no-repeat right url(./Assets/Photos/frontCards.png);
+    background: no-repeat right/65% url(./Assets/Photos/backCards.png), no-repeat right url(./Assets/Photos/frontCards.png);
     height: 80vh;
-    min-height: 800px;
+    min-height: 1000px;
 }
 section[aria-label="hero-logos"] {
     width: 100%;
@@ -113,23 +113,49 @@ section[aria-label="hero-logos"] {
     margin-left: 2rem;
 }
 .hero-features {
-    background-color: #fff;
+    background-color: #fdf2f2;
     background-image: url(./Assets/Photos/VCards.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     height: 45vh;
     min-height: 1500px;
 }
 .hero-features-heading {
     color: #000;
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 6rem;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
 }
-.hero-features-heading > span {
+span {
     color: rgb(238, 31, 238);
 }
 .hero-features-description {
     color: rgba(0, 0, 0, 75%);
     font-weight: 400;
     font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-reviews {
+    display: flex;
+}
+.user-reviews > div > p > span {
+    font-weight: 300;
+}
+.rectangle-div {
+    text-align: center;    
+    height: 600px;
+    background: no-repeat url(./Assets/Photos/Rectangle-6774.png), no-repeat url(./Assets/Photos/Rectangle-6773.png);
+    background-size: 100% 600px;
+}
+footer {
+    display: flex;
+    height: 10vh;
+    min-height: 250px;
 }

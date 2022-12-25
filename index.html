@@ -11,40 +11,26 @@
 
 <body>
   <main>
-    <section>
+    <section aria-label="hero-front">
       <nav class="navbar">
         <div>
           <img src="./Assets/Icons/Logo.svg" alt="logo-svg" />
         </div>
         <div>
           <ul class="menu-list">
-            <li>Home</li>
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>About Us</li>
+            <li class="list-item">Home</li>
+            <li class="list-item">Features</li>
+            <li class="list-item">Pricing</li>
+            <li class="list-item">About Us</li>
           </ul>
         </div>
         <div>
           <ul class="block-list">
-            <li class="list-item1">
-              <form action="">
-                <select>
-                  <option value="lang">English</option>
-                  <option value="lang">Bengali</option>
-                  <option value="lang">Hindi</option>
-                  <option value="lang">Japanese</option>
-                </select>
-              </form>
-            </li>
-            <li class="list-item2">
-              <!-- <img src="./Assets/Icons/btn-pink-bg.svg" alt="btn-bg"> -->
-              <span>Contact Us</span>
-            </li>
+            <li class="item">Eng.</li>
+            <li class="list-item2 item">Contact Us</li>
           </ul>
         </div>
       </nav>
-    </section>
-    <section aria-label="hero-box">
       <article class="hero-box">
         <h1 class="hero-heading">Simplify All Transactions <br>in <span>One Card</span></h1>
         <p class="hero-description">
@@ -54,9 +40,9 @@
         <button class="btn">Get Started</button>
         <img src="./Assets/Icons/RightArrow.svg" alt="RightArrow" />
         <div class="hero-experience">
-          <p><span>42K</span><span>+</span>Happy Active User</p>
-          <img src="./Assets/Icons/Vector-402.svg" alt="Vector-402">
-          <p><span>12K</span><span>+</span>Years Experience</p>
+          <p><span class="hero-num">42K</span><span>+</span></p><p class="hero-text">Happy<br>Active User</p>
+          <img class="v-rule" src="./Assets/Icons/Vector-402.svg" alt="Vector-402">
+          <p><span class="hero-num">12K</span><span>+</span></p><p class="hero-text">Years <br> Experience</p>
         </div>
       </article>
     </section>
@@ -138,5 +124,4 @@
     </section>
   </main>
 </body>
-
 </html>

@@ -88,7 +88,8 @@ ul {
     font-size: 2rem;
     background: no-repeat left url(./Assets/Icons/btn-pink-bg.svg);
     background-size: 128px 64px;
-    margin: 7rem 0 7rem 0;
+    margin: 6rem 0 6rem 0;
+    cursor: pointer;
 }
 
 .hero-experience {
@@ -243,7 +244,6 @@ section[aria-label="hero-feedback"] {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 62.5rem;
 }
 
 .user-reviews {
@@ -301,16 +301,81 @@ section[aria-label="hero-feedback"] {
     color: #fff;
 }
 
-.rectangle-div {
-    text-align: center;
-    height: 600px;
-    background: no-repeat url(./Assets/Photos/Rectangle-6774.png),
-        no-repeat url(./Assets/Photos/Rectangle-6773.png);
-    background-size: 100% 600px;
+.hr {
+    width: 20%;
+    min-width: 300px;
+    display: flex;
+    margin: 2rem auto 3rem auto;
 }
 
-footer {
+.border {
+    width: 8rem;
+    height: 1.5rem;
+    margin-left: 1.25rem;
+    background-color: rgb(248, 22, 248);
+    border-radius: 2rem;
+}
+
+.dot-circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1.25rem;
+    background-color: #4d4e50;
+    border-radius: 2rem;
+}
+
+.rectangle-div {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: no-repeat url(./Assets/Photos/Rectangle-6774.png),
+        no-repeat url(./Assets/Photos/Rectangle-6773.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.join-now {
+    width: 100%;
+    height: 700px;
+    background: no-repeat left top url(./Assets/Photos/Diamond-right.png),
+        no-repeat right url(./Assets/Photos/Diamond-left.png);
+    background-size: 33% 700px;
+}
+
+.join-now-heading {
+    width: 75%;
+    margin: 8rem auto 4rem auto;
+    font-weight: 800;
+    font-size: 6rem;
+}
+
+.join-now-heading>span {
+    color: #000;
+}
+
+div[aria-label="footer-list"] {
+    width: 70%;
+    margin-left: auto;
+}
+
+.footer {
     display: flex;
     height: 10vh;
     min-height: 250px;
+    width: 80%;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+}
+
+.list-item {
+    font-weight: 500;
+    margin-left: 2rem;
+    font-size: 1.5rem;
 }

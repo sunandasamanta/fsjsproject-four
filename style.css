@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&display=swap");
 
 body {
     margin: 0;
@@ -194,7 +194,7 @@ section[aria-label="hero-service"] {
     position: relative;
     top: -4rem;
     border: 0.25rem solid;
-    border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 100%), rgba(218, 221, 225, 50%)) 1;
+    border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 100%), rgba(255, 255, 255, 40%)) 1;
     background: no-repeat top/40% url(./Assets/Icons/cloud-add.svg), linear-gradient(rgba(255, 255, 255, 10%),
             rgba(255, 255, 255, 40%));
 }
@@ -239,23 +239,66 @@ span {
 }
 
 section[aria-label="hero-feedback"] {
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    height: 62.5rem;
 }
 
 .user-reviews {
-    display: flex;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .hero-feedback-heading {
     font-weight: 600;
     font-size: 6rem;
+    width: 90%;
+    margin: 7rem auto 7rem auto;
 }
 
-.user-reviews>div>p>span {
-    font-weight: 300;
+.hero-feedback-description {
+    font-weight: 400;
+    font-size: 1.75rem;
+    width: 60%;
+    margin: 0 auto 7rem auto;
+}
+
+.first-container {
+    display: flex;
+    width: 100%;
+    margin-right: 3rem;
+}
+
+.second-container {
+    display: flex;
+    width: 100%;
+}
+
+.feedback {
+    width: 100%;
+    margin: 3rem;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom, rgb(253, 253, 253), rgba(211, 147, 243, 0%)) 1;
+    min-height: 320px;
+}
+
+.feedback1 {
+    border: 0.125rem solid;
+    border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 100%), rgba(255, 255, 255, 40%)) 1;
+}
+
+
+.feedback-box {
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+.feedback-box>p>span {
+    font-weight: 200;
+    color: #fff;
 }
 
 .rectangle-div {

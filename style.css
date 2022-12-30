@@ -12,8 +12,9 @@ body {
 
 section[aria-label="hero-front"] {
     margin: 3rem 0 0 5rem;
-    background: no-repeat right/65% url(./Assets/Photos/backCards.png),
-        no-repeat right url(./Assets/Photos/frontCards.png);
+    background: no-repeat right/70% url(./Assets/Photos/backCards.png),
+        no-repeat right/55% url(./Assets/Photos/frontCards.png);
+    background-position: top 35% right -20%;
     height: 80vh;
     min-height: 1080px;
 }
